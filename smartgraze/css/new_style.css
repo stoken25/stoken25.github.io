@@ -1,0 +1,137 @@
+.choice label select,
+.ectfCont .choice label:nth-child(4) select {
+  width: 100px;
+}
+.ectfCont .choice {
+  padding-bottom: 18px;
+}
+.ectfCont .choice label input {
+  width: 144px;
+  margin-left: 10px;
+}
+.ectfCont .choice a.search {
+  position: static;
+  float: right;
+  width: 88px;
+}
+.btnbox {
+  margin-bottom: 10px;
+}
+.deleteAll a,
+.nextPage a,
+.offAll a {
+  padding: 6px 16px;
+  background-color: #4eb1df;
+  color: #fff;
+}
+.btnbox span:nth-child(1) {
+  color: #acacac;
+  font-size: 16px;
+}
+.lrCont .choice {
+  padding-bottom: 18px;
+}
+.lrCont .choice label input {
+  width: 144px;
+}
+.lrCont .choice a.search {
+  position: static;
+  float: right;
+  width: 88px;
+}
+.rcCont .choice {
+  padding-bottom: 18px;
+}
+.rcCont .choice label input {
+  width: 178px;
+}
+.rcCont .choice a.search {
+  width: 88px;
+  position: static;
+}
+.rcCont .btnBox {
+  margin-bottom: 12px;
+  width: 100%;
+}
+.rcCont .btnBox a.next {
+  text-align: center;
+  width: 88px;
+  padding: 6px 16px;
+  color: #49a0c9;
+  border: 1px solid #49a0c9;
+  border-radius: 6px;
+  background-color: #4aafdf;
+  color: #fff;
+}
+.rcCont .btnBox span {
+  padding-right: 54px;
+  font-size: 16px;
+  color: #acacac;
+  padding-top: 6px;
+  display: inline-block;
+}
+.dmCont .tabContent .choice a.search {
+  width: 88px;
+  position: static;
+}
+.dmCont .tabContent .choice .width140 {
+  width: 108px;
+}
+.dmCont .tabContent a.sbbx:hover {
+  background-color: #4eb1df;
+  color: #fff;
+}
+.dmCont .tabContent a.sbbx:active {
+  background-color: #4eb1df;
+  color: #fff;
+}
+.textBox .text-title {
+  color: #333333;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.textBox ul li {
+  margin-right: 50px;
+}
+.textBox ul li label {
+  color: #333333;
+  font-size: 14px;
+  padding-right: 10px;
+}
+.textBox ul li input.text {
+  width: 158px;
+  height: 25px;
+}
+.textBox ul li i {
+  padding-left: 10px;
+}
+.biCont .tabContent > div .choice a.search {
+  width: 88px;
+}
+.biCont .tabContent > div .choice a.search {
+  position: static;
+}
+.biCont .tabContent > div .choice label {
+  font-size: 16px;
+}
+.modalBox ul {
+  padding-left: 10%;
+}
+.modalBox ul li label {
+  display: inline-block;
+  width: 70px;
+  text-align: right;
+  font-size: 14px;
+  margin-top: 4px;
+}
+.modalBox ul li .text {
+  width: 192px;
+  height: 32px;
+}
+.modalBox ul li .select {
+  width: 192px;
+}
+.deleteAll .pldr:hover {
+  background-color: #4eb1df;
+  color: #fff;
+}

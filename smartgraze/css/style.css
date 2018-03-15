@@ -1,0 +1,904 @@
+i.glyphicon.icon-arrow-left,
+i.glyphicon.icon-arrow-right {
+  width: 16px;
+  height: 16px;
+}
+i.glyphicon.icon-arrow-left {
+  background: url(../images/left.png) no-repeat center center;
+}
+i.glyphicon.icon-arrow-right {
+  background: url(../images/right.png) no-repeat center center;
+}
+select.province,
+select.city,
+select.districtAndCounty {
+  width: 120px;
+  margin-right: 8px;
+}
+a.checkbox {
+  display: inline-block;
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+  background: url(../images/icon_checkbox.png) no-repeat 0 0;
+}
+a.checkbox.check {
+  background: url(../images/icon_checkbox_checked.png) no-repeat 0 0;
+}
+input[type="checkbox"] {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.radio input[type="radio"],
+.radio-inline input[type="radio"],
+.checkbox input[type="checkbox"],
+.checkbox-inline input[type="checkbox"] {
+  margin-left: -8px;
+}
+select {
+  padding: 0 36px 0 5px;
+  width: 150px;
+  height: 34px;
+  background: url(../images/select_bg.png) no-repeat right center;
+  border: 1px solid #ccc;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+select:focus {
+  border: 1px solid #49a0c9;
+}
+select::-ms-expand {
+  display: none;
+}
+a.search {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  width: 60px;
+  height: 34px;
+  vertical-align: top;
+  background-color: #4eb1df;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+}
+a.search:focus,
+a.search:hover,
+a.search:focus:active {
+  color: #fff;
+  border: none;
+  outline-offset: 0;
+}
+label {
+  margin: 0;
+  font-weight: normal;
+}
+input {
+  padding: 0 5px;
+  border: 1px solid #ccc;
+}
+input:focus {
+  border: 1px solid #49a0c9;
+}
+.table-bordered {
+ /* border: 1px solid #49a0c9;*/
+}
+.table-bordered thead > tr > th {
+  height: 40px;
+  background-color: #eaf4fa;
+}
+.table-bordered tbody > tr {
+  height: 50px;
+}
+/*input[type="radio"], input[type="checkbox"]{
+    vertical-align: middle;
+    margin: -2px 0 0;
+}*/
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td {
+  /*border: 1px solid #49a0c9;*/
+}
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+  padding: 0;
+  vertical-align: middle;
+}
+.table > tbody td a.detail,
+.table > tbody td a.delete,
+.table > tbody td a.lction,
+.table > tbody td a.off,
+.table > tbody td a.modify,
+.table > tbody td a.resetpsd {
+  display: inline-block;
+  vertical-align: middle;
+  width: 24px;
+  height: 0;
+  padding-top: 24px;
+  outline: none;
+  overflow: hidden;
+}
+.table > tbody td a.detail {
+  margin: 0 10px;
+  background: url(../images/icon_details.png) no-repeat center center;
+}
+.table > tbody td a.delete {
+  margin-left: 24px;
+  background: url(../images/icon_delete.png) no-repeat center center;
+}
+.table > tbody td a.lction {
+  margin-right: 24px;
+  background: url(../images/icon_lction.png) no-repeat center center;
+}
+.table > tbody td a.off {
+  margin-left: 24px;
+  background: url(../images/icon_off.png) no-repeat center center;
+}
+.table > tbody td a.modify {
+  margin: 0 24px;
+  background: url(../images/icon_modify.png) no-repeat center center;
+}
+.table > tbody td a.resetpsd {
+  margin-left: 24px;
+  background: url(../images/icon_resetpsd.png) no-repeat center center;
+}
+.navigation > .pagination {
+  margin-left: 10px;
+}
+.navigation > span {
+  margin: 20px 0;
+  display: inline-block;
+  height: 34px;
+  line-height: 34px;
+}
+.pagination > li > a,
+.pagination > li > span {
+  margin-left: 10px;
+}
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus,
+.pagination > li.active.dote > a {
+  background-color: #fff;
+  color: #337ab7;
+  border: 1px solid #ddd;
+}
+.pagination > li:first-child > a > span,
+.pagination > li:first-child.active > a,
+.pagination > li:last-child.active > a,
+.pagination > li:last-child > a > span {
+  background-color: #fff;
+  color: #333;
+  border-color: #ddd;
+}
+.pagination > li:last-child.active > a {
+  border: 1px solid #ddd;
+}
+.rtlCont,
+.ectfCont,
+.ectfDetailCont,
+.lrCont,
+.lrDetailCont,
+.rcCont,
+.rcsetCont,
+.alarmCont,
+.dmCont,
+.dmDetailCont,
+.sysSetCont,
+.biCont,
+.camdetailCont,
+.pjdetailCont,
+.userSetCont {
+  padding: 0 74px;
+}
+.modal-dialog {
+  width: 410px;
+  margin-top: 200px;
+}
+.modal-dialog .modal-header {
+  padding: 16px 20px;
+}
+.modal-dialog .modal-header .modal-title {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+.modal-dialog .modal-body {
+  padding: 24px 20px;
+  text-align: center;
+}
+.modal-dialog .modal-body li {
+  margin-bottom: 24px;
+}
+.modal-dialog .modal-body li:last-child {
+  margin-bottom: 0;
+}
+.modal-dialog .modal-body li span {
+  margin-left: 10px;
+}
+.modal-dialog .modal-footer {
+  border: none;
+  text-align: center;
+}
+.deleteAll a,
+.nextPage a,
+.offAll a {
+  padding: 8px 20px;
+  border: 1px solid #49a0c9;
+  border-radius: 6px;
+  float: right;
+}
+.deleteAll a:hover,
+.nextPage a:hover,
+.offAll a:hover,
+.deleteAll a:focus,
+.nextPage a:focus,
+.offAll a:focus {
+  background-color: transparent;
+  text-decoration: none;
+}
+.deleteAll a.disabled,
+.nextPage a.disabled,
+.offAll a.disabled {
+  background-color: #ddd;
+  cursor: no-drop;
+  border: 1px solid #ddd;
+  color: #fff;
+}
+ul.tabs {
+  padding-top: 30px;
+  border-bottom: 1px solid #ccc;
+}
+ul.tabs li {
+  margin: 0 10px -1px 0;
+  height: 38px;
+  line-height: 38px;
+  border: 1px solid #ccc;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  float: left;
+  text-align: center;
+  cursor: pointer;
+  z-index: 10;
+}
+ul.tabs li.active {
+  border-bottom: 1px solid #fff;
+  color: #4eb1df;
+}
+/****realTimeLocation.html 实时定位*****/
+.choice div:first-child {
+  position: relative;
+}
+.choice div:first-child:first-child {
+  padding: 30px 0;
+}
+.choice div:first-child label {
+  margin: 0 40px 0 0;
+}
+.choice div:first-child label.last {
+  margin-right: 0;
+}
+.choice div:first-child span.time {
+  padding: 7px 0;
+}
+.choice div:first-child span.time i {
+  padding: 0 3px;
+  color: #3c99e3;
+}
+.choice div:first-child a.search {
+  left: 743px;
+  bottom: 30px;
+}
+.choice div:last-child p {
+  border-top: 1px solid #ccc;
+}
+.choice div:last-child p span {
+  padding: 13px 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+.choice div:last-child p span:nth-child(1),
+.choice div:last-child p span:nth-child(3),
+.choice div:last-child p span:nth-child(5) {
+  width: 158px;
+}
+.choice div:last-child p span:nth-child(2),
+.choice div:last-child p span:nth-child(4) {
+  width: 138px;
+}
+.choice div:last-child p span i {
+  padding-left: 5px;
+  color: #ff6d0c;
+}
+.choice div:last-child p:first-child span > i:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.choice div:last-child p:first-child span:first-child > i:hover {
+  cursor: default;
+  text-decoration: none;
+}
+/*****electricFence.html 电子围栏*****/
+.ectfCont .choice {
+  padding:30px 0 62px 0;
+  position: relative;
+}
+.ectfCont .choice label {
+  margin: 0 10px 0 0;
+  font-size: 16px;
+  color: #333;
+}
+.ectfCont .choice label input {
+  width: 180px;
+  height: 34px;
+}
+/*.ectfCont .choice label.last {
+  margin-right: 0;
+}*/
+.ectfCont .choice label:nth-child(4){
+	margin-right: 0px;
+}
+.ectfCont .choice label:nth-child(4) select{
+	width: 164px;
+}
+
+/*****electricFence-detail.html电子围栏详情 deviceManagement-detail.html设备管理详情*****/
+.ectfDetailCont .choice,
+.dmDetailCont .choice {
+  padding: 30px 0;
+}
+.ectfDetailCont .choice h2,
+.dmDetailCont .choice h2 {
+  padding: 5px 0;
+  float: left;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 22px;
+  color: #3c99e2;
+  font-weight: normal;
+}
+.ectfDetailCont .choice a.back,
+.dmDetailCont .choice a.back {
+  float: right;
+  vertical-align: middle;
+  background-color: #4eb1df;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+}
+/*****locusReplay.html 轨迹回放*****/
+.lrCont h2 {
+  padding-top: 30px;
+  font-size: 22px;
+  color: #3c99e2;
+  font-weight: normal;
+}
+.lrCont .choice {
+  padding: 30px 0;
+  position: relative;
+}
+.lrCont .choice label {
+  margin: 0 40px 0 0;
+}
+.lrCont .choice label input {
+  width: 198px;
+  height: 34px;
+}
+.lrCont .choice label.last {
+  margin-right: 0;
+}
+/*****locusReplay-detail.html 轨迹详情*****/
+.lrDetailCont h2 {
+  padding: 30px 0;
+  font-size: 22px;
+  color: #3c99e2;
+  font-weight: normal;
+}
+.lrDetailCont .time {
+  padding-bottom: 30px;
+  position: relative;
+}
+.lrDetailCont .time label {
+  margin: 0 40px 0 0;
+}
+.lrDetailCont .time label input {
+  width: 170px;
+  height: 34px;
+}
+.lrDetailCont .time label.last {
+  margin-right: 0;
+}
+.lrDetailCont .time a.search {
+  left: 540px;
+}
+/****remoteControl.html 远程操控*****/
+.rcCont .choice {
+  padding: 30px 0;
+  position: relative;
+}
+.rcCont .choice label {
+  margin: 0 15px 0 0;
+}
+.rcCont .choice label input {
+  width: 130px;
+  height: 34px;
+}
+.rcCont .choice label > select {
+  width: 110px;
+}
+.rcCont .table > tbody td a.detail {
+  margin: 0;
+}
+/****remoteControl-setting.html 远程操控-操控指令设置*****/
+.rcsetCont h2 {
+  padding: 30px 0;
+  font-size: 22px;
+  color: #3c99e2;
+  font-weight: normal;
+  border-bottom: 1px solid #ccc;
+}
+.rcsetCont form {
+  margin-bottom: 80px;
+}
+.rcsetCont form div.section {
+  padding: 14px 0;
+  border-bottom: 1px solid #edeef2;
+}
+.rcsetCont form div.section h3 {
+  height: 42px;
+  line-height: 42px;
+  color: #171d25;
+  font-size: 16px;
+}
+.rcsetCont form div.section h3 span {
+  margin-left: 20px;
+  color: #999;
+}
+.rcsetCont form div.section .row {
+  margin: 0;
+}
+.rcsetCont form div.section .row .col-md-4 {
+  padding: 17px 0;
+}
+.rcsetCont form div.section .row .col-md-4 label {
+  color: #666;
+}
+.rcsetCont form div.section .row .col-md-4 input,
+.rcsetCont form div.section .row .col-md-4 select {
+  margin-left: 15px;
+  height: 26px;
+  width: 282px;
+}
+.rcsetCont form div.section .row .col-md-4 select.setTime {
+  width: 140px;
+  vertical-align: middle;
+}
+.rcsetCont form div.section .row .col-md-4 button.sendmsg {
+  margin-left: 15px;
+  padding: 4px 0;
+  width: 80px;
+  height: 28px;
+  border: none;
+  background-color: #4eb1df;
+  color: #fff;
+  vertical-align: middle;
+  text-align: center;
+}
+.rcsetCont form div.section .row .col-md-4 button.sendmsg:active {
+  border: none;
+  outline: none;
+}
+.rcsetCont form div.section:last-child {
+  border-bottom: none;
+}
+.rcsetCont form div.btns {
+  padding: 12px;
+  text-align: center;
+}
+.rcsetCont form div.btns button {
+  width: 90px;
+}
+.rcsetCont form div.btns button.prev {
+  color: #4eb1df;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+.rcsetCont form div.btns button.prev:active {
+  border: 1px solid #ccc;
+}
+.rcsetCont form div.btns button.submit {
+  margin-left: 52px;
+  background-color: #4eb1df;
+  border: none;
+  color: #fff;
+}
+/****alarms.html 消息中心*****/
+.alarmCont ul.tabs li {
+  width: 110px;
+}
+.alarmCont .tabContent .time {
+  padding: 20px 0;
+  position: relative;
+}
+.alarmCont .tabContent .time label {
+  margin-right: 40px;
+}
+.alarmCont .tabContent .time label select {
+  margin-left: 10px;
+}
+.alarmCont .tabContent .time label input {
+  width: 180px;
+  height: 34px;
+}
+.alarmCont .tabContent .time label input:first-child {
+  margin-right: 6px;
+}
+.alarmCont .tabContent .time label input:last-child {
+  margin-left: 6px;
+}
+.alarmCont .tabContent .time a.search {
+  bottom: 20px;
+}
+.alarmCont .tabContent ul.list li {
+  padding-left: 26px;
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #d3e8f5;
+}
+.alarmCont .tabContent ul.list li:hover {
+  color: #ff6d0c;
+}
+.alarmCont .tabContent ul.list li span {
+  margin-right: 20px;
+}
+.alarmCont .tabContent ul.list li span:nth-child(3) {
+  padding-right: 16px;
+  /*background: url(../images/icon_lction.png) no-repeat right top;*/
+  background-size: 16px 19px;
+}
+.alarmCont .tabContent ul.list li:first-child {
+  border-top: 1px solid #4eb1df;
+}
+.alarmCont .tabContent ul.list li.cur {
+  color: #ff6d0c;
+}
+.alarmCont .tabContent ul.list.fenceInfo li span:nth-child(3) {
+  padding-right: 0;
+  background: none;
+}
+.alarmCont .tabContent > div {
+  display: none;
+}
+.alarmCont .tabContent > div:first-child {
+  display: block;
+}
+.alarmCont .tabContent > div:first-child ul.list > li {
+  background: url(../images/icon_msg01.png) no-repeat 0 center;
+}
+.alarmCont .tabContent > div:nth-child(2) a.search {
+  left: 830px;
+}
+.alarmCont .tabContent > div:nth-child(2) ul.list > li {
+  background: url(../images/icon_msg02.png) no-repeat 0 center;
+}
+.alarmCont .tabContent > div:nth-child(3) a.search {
+  left: 830px;
+}
+.alarmCont .tabContent > div:nth-child(3) ul.list > li {
+  background: url(../images/icon_msg03.png) no-repeat 0 center;
+}
+/****deviceManagement.html设备管理*****/
+.dmCont h2 {
+  padding-top: 30px;
+  font-size: 22px;
+  color: #3c99e2;
+  font-weight: normal;
+}
+.dmCont .choice {
+  padding: 30px 0;
+  position: relative;
+}
+.dmCont .choice label {
+  margin: 0 20px 0 0;
+}
+.dmCont .choice label select {
+  width: 110px;
+}
+.dmCont .choice label .width100 {
+  width: 100px;
+}
+.dmCont .choice label .width110 {
+  width: 110px;
+}
+.dmCont .choice label .width130 {
+  width: 130px;
+}
+.dmCont .choice label .width140 {
+  width: 140px;
+}
+.dmCont .choice label input {
+  width: 160px;
+  height: 34px;
+}
+.dmCont .choice label.last {
+  margin-right: 0;
+}
+/****systemSetting.html系统设置*****/
+.sysSetCont .tabContent > div,
+.userSetCont .tabContent > div {
+  display: none;
+}
+.sysSetCont .tabContent > div .choice,
+.userSetCont .tabContent > div .choice {
+  padding: 20px 0;
+  position: relative;
+}
+.sysSetCont .tabContent > div .choice a.search,
+.userSetCont .tabContent > div .choice a.search {
+  left: 480px;
+  bottom: 20px;
+}
+.sysSetCont .tabContent > div .choice a.adduser,
+.userSetCont .tabContent > div .choice a.adduser {
+  position: absolute;
+  left: 570px;
+  bottom: 20px;
+  border: 1px solid #ddd;
+  color: #4eb1df;
+}
+.sysSetCont .tabContent > div .choice a.adduser:hover,
+.userSetCont .tabContent > div .choice a.adduser:hover {
+  color: #4eb1df;
+  text-decoration: none;
+}
+.sysSetCont .tabContent > div:first-child,
+.userSetCont .tabContent > div:first-child {
+  display: block;
+}
+.sysSetCont .tabContent > div:first-child .table > tbody td a.delete,
+.userSetCont .tabContent > div:first-child .table > tbody td a.delete {
+  margin: 0 24px;
+}
+.sysSetCont .tabContent > div:last-child .table > tbody td a.delete,
+.userSetCont .tabContent > div:last-child .table > tbody td a.delete {
+  margin: 0;
+}
+.sysSetCont .modal-header .modal-title,
+.userSetCont .modal-header .modal-title {
+  font-size: 16px;
+  color: #333;
+}
+.sysSetCont .modal-body label span,
+.userSetCont .modal-body label span {
+  display: inline-block;
+  width: 70px;
+  text-align: right;
+  vertical-align: middle;
+}
+.sysSetCont .modal-body label input,
+.userSetCont .modal-body label input {
+  margin-bottom: 20px;
+  padding: 0 10px;
+  width: 286px;
+  height: 28px;
+}
+.sysSetCont .modal-body label:last-child input,
+.userSetCont .modal-body label:last-child input {
+  margin-bottom: 0;
+}
+.sysSetCont .tabs {
+  position: relative;
+}
+.sysSetCont .tabs a {
+  padding: 8px 0;
+  color: #4eb1df;
+}
+.sysSetCont .tabs li {
+  width: 152px;
+}
+.userSetCont .title {
+  padding-top: 30px;
+  position: relative;
+  border-bottom: 1px solid #ccc;
+}
+.userSetCont .title a {
+  padding: 8px 0;
+  color: #4eb1df;
+}
+.userSetCont .title h2 {
+  display: inline-block;
+  width: 152px;
+  height: 36px;
+  line-height: 36px;
+  vertical-align: middle;
+}
+/****baseInfo.html信息管理*****/
+.biCont .tabs > li {
+  width: 110px;
+}
+.biCont .tabContent > div {
+  display: none;
+}
+.biCont .tabContent > div .choice {
+  padding: 20px 0;
+  position: relative;
+}
+.biCont .tabContent > div .choice a.search {
+  bottom: 20px;
+}
+.biCont .tabContent > div .choice label {
+  margin-right: 30px;
+}
+.biCont .tabContent > div .choice label input {
+  width: 180px;
+  height: 34px;
+}
+.biCont .tabContent > div .choice label.last {
+  margin-right: 0;
+}
+.biCont .tabContent > div:first-child {
+  display: block;
+}
+.biCont .tabContent > div:first-child .table > tbody td a.delete {
+  margin: 0 24px;
+}
+.biCont .tabContent > div:nth-child(4) .table > tbody td a.delete {
+  margin: 0;
+}
+/****baseInfo-camdetail.html信息管理-摄像头详情baseInfo-pjdetail.html信息管理-棚圈详情*****/
+.camdetailCont .tabs > li,
+.pjdetailCont .tabs > li {
+  width: 110px;
+}
+.camdetailCont .choice,
+.pjdetailCont .choice {
+  padding: 30px 0;
+}
+.camdetailCont .choice span,
+.pjdetailCont .choice span {
+  display: inline-block;
+  height: 32px;
+  line-height: 32px;
+}
+.camdetailCont .choice a.back,
+.pjdetailCont .choice a.back {
+  float: right;
+  vertical-align: middle;
+  background-color: #4eb1df;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+}
+/****statisticAnalysis.html统计分析*****/
+.aiasCont,
+.pastureCont,
+.userCont,
+.deviceCont,
+.msgCont {
+  padding: 0 74px;
+}
+.aiasCont .tabs > li,
+.pastureCont .tabs > li,
+.userCont .tabs > li,
+.deviceCont .tabs > li,
+.msgCont .tabs > li {
+  width: 110px;
+  font-size: 16px;
+}
+.aiasCont .analysis .subtabs,
+.pastureCont .analysis .subtabs,
+.userCont .analysis .subtabs,
+.deviceCont .analysis .subtabs,
+.msgCont .analysis .subtabs {
+  margin-right: 40px;
+  padding: 20px 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+.aiasCont .analysis .subtabs li,
+.pastureCont .analysis .subtabs li,
+.userCont .analysis .subtabs li,
+.deviceCont .analysis .subtabs li,
+.msgCont .analysis .subtabs li {
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #ccc;
+  float: left;
+  border-right: none;
+  text-align: center;
+  cursor: pointer;
+}
+.aiasCont .analysis .subtabs li:last-child,
+.pastureCont .analysis .subtabs li:last-child,
+.userCont .analysis .subtabs li:last-child,
+.deviceCont .analysis .subtabs li:last-child,
+.msgCont .analysis .subtabs li:last-child {
+  border-right: 1px solid #ccc;
+}
+.aiasCont .analysis .subtabs li.on,
+.pastureCont .analysis .subtabs li.on,
+.userCont .analysis .subtabs li.on,
+.deviceCont .analysis .subtabs li.on,
+.msgCont .analysis .subtabs li.on {
+  border: #4eb1df;
+  background-color: #4eb1df;
+  color: #fff;
+}
+.aiasCont .analysis select,
+.pastureCont .analysis select,
+.userCont .analysis select,
+.deviceCont .analysis select,
+.msgCont .analysis select {
+  margin: 20px 30px 20px 0;
+  height: 30px;
+  vertical-align: middle;
+}
+.aiasCont .analysis select.times,
+.pastureCont .analysis select.times,
+.userCont .analysis select.times,
+.deviceCont .analysis select.times,
+.msgCont .analysis select.times {
+  display: none;
+}
+.aiasCont .analysis .echartsCont > div,
+.pastureCont .analysis .echartsCont > div,
+.userCont .analysis .echartsCont > div,
+.deviceCont .analysis .echartsCont > div,
+.msgCont .analysis .echartsCont > div {
+  display: none;
+  width: 1200px;
+  height: 660px;
+}
+.aiasCont .analysis .echartsCont > div canvas,
+.pastureCont .analysis .echartsCont > div canvas,
+.userCont .analysis .echartsCont > div canvas,
+.deviceCont .analysis .echartsCont > div canvas,
+.msgCont .analysis .echartsCont > div canvas {
+  width: 1200px;
+  overflow-x: auto;
+}
+.aiasCont .analysis .echartsCont > div:first-child,
+.pastureCont .analysis .echartsCont > div:first-child,
+.userCont .analysis .echartsCont > div:first-child,
+.deviceCont .analysis .echartsCont > div:first-child,
+.msgCont .analysis .echartsCont > div:first-child {
+  display: block;
+}
+
+.map{
+	padding-bottom: 40px;
+}
+
+.btnBox{
+		position: relative;
+		width: 18px;
+    height: 19px;
+    overflow: hidden;
+    top:-10px;
+    margin-right: 15px;
+    
+}
+
+.deleteAll .file{
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	position: absolute;
+	left: 0px;
+	top:0px;
+	cursor: pointer;
+	background: rgba(0,0,0,0);
+}
