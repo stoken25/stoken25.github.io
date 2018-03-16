@@ -1,0 +1,19 @@
+/*reset*/
+body,ul,p{
+	margin: 0;
+}
+ul{
+	list-style: none;
+}
+ul,input{
+	padding: 0;
+}
+img{
+	display: block;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
